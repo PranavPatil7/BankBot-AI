@@ -1,43 +1,18 @@
----
-page_type: sample
-languages:
-- azdeveloper
-- java
-- bicep
-- typescript
-- html
-products:
-- ai-services 
-- azure
-- azure-openai
-- active-directory
-- azure-cognitive-search
-- azure-container-apps
-- azure-sdks
-- github
-- document-intelligence
-- azure-monitor
-- azure-pipelines
-urlFragment: agent-openai-java-banking-assistant
-name: Multi Agents Banking Assistant with Java and Langchain4j
-description: A Java sample app emulating a personal banking AI-powered assistant to inquire about account balances, review recent transactions, or initiate payments
----
+
 <!-- YAML front-matter schema: https://review.learn.microsoft.com/en-us/help/contribute/samples/process/onboarding?branch=main#supported-metadata-fields-for-readmemd -->
 <!-- prettier-ignore -->
 <div align="center">
 
 ![](./docs/assets/robot-agents-small.png)
 
-# Multi Agent Banking Assistant with Java and [Langchain4j]
+# BankBot AI - Multi Agent Banking Assitant
 
 [![Open project in GitHub Codespaces](https://img.shields.io/badge/Codespaces-Open-blue?style=flat-square&logo=github)](https://codespaces.new/azure-samples/agent-openai-java-banking-assistant?hide_repo_select=true&ref=main&quickstart=true)
 [![Build Status](https://img.shields.io/github/actions/workflow/status/azure-samples/agent-openai-java-banking-assistant/azure-dev.yaml?style=flat-square&label=Build)](https://github.com/azure-samples/agent-openai-java-banking-assistant/actions)
 ![Java version](https://img.shields.io/badge/Java->=17-3c873a?style=flat-square)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
-
 <!-- [![Watch how to use this sample on YouTube](https://img.shields.io/badge/YouTube-Watch-d95652.svg?style=flat-square&logo=youtube)]() -->
 
-:star: If you like this sample, star it on GitHub — it helps a lot!
 
 [Overview](#overview) • [Architecture](#agents-concepts-and-architectures) • [Get started](#getting-started) •  [Resources](#resources) • [FAQ](#faq) • [Troubleshooting](#troubleshooting)
 
@@ -363,34 +338,4 @@ Here are some resources to learn more about multi-agent architectures and techno
 
 You can also find [more Azure AI samples here](https://github.com/Azure-Samples/azureai-samples).
 
-## FAQ
 
-You can find answers to frequently asked questions in the [FAQ](./docs/faq.md).
-
-## Troubleshooting
-
-If you have any issue when running or deploying this sample, please check the [troubleshooting guide](./docs/troubleshooting.md). If you can't find a solution to your problem, please [open an issue](https://github.com/Azure-Samples/agent-openai-java-banking-assistant/issues) in this repository.
-
-## Contributing
-
-This project welcomes contributions and suggestions. Most contributions require you to agree to a
-Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
-the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
-
-When you submit a pull request, a CLA bot will automatically determine whether you need to provide
-a CLA and decorate the PR appropriately (e.g., status check, comment). Simply follow the instructions
-provided by the bot. You will only need to do this once across all repos using our CLA.
-
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
-For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
-contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
-
-## Trademarks
-
-This project may contain trademarks or logos for projects, products, or services. Authorized use of Microsoft
-trademarks or logos is subject to and must follow
-[Microsoft's Trademark & Brand Guidelines](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general).
-Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship.
-Any use of third-party trademarks or logos are subject to those third-party's policies.
-
-[Langchain4j]: https://github.com/langchain4j/langchain4j
